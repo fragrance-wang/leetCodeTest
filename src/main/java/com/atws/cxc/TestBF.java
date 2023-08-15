@@ -1,6 +1,7 @@
 package com.atws.cxc;
 
 /**
+ * 程序厨案例
  *
  * https://www.chengxuchu.com/2-algorithm_base/02-%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%8C%B9%E9%85%8D/BF.html#bf-%E5%B8%B8%E8%A7%84%E6%96%B9%E6%B3%95
  *

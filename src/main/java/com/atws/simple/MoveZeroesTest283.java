@@ -5,9 +5,9 @@ package com.atws.simple;
  * @author wangshan
  * @date 2023-07-12 上午9:57
  */
-public class MoveZeroes {
+public class MoveZeroesTest283 {
     public static void main(String[] args) {
-        MoveZeroes moveZeroes = new MoveZeroes();
+        MoveZeroesTest283 moveZeroes = new MoveZeroesTest283();
         int[] ints = {0, 1, 0, 3, 12};
         moveZeroes.moveZeroes(ints);
         for (int temp:ints
