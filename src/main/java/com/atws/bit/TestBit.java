@@ -1,8 +1,10 @@
-package com.atws.huawei.od;
+package com.atws.bit;
 
 import java.util.Scanner;
 
 /**
+ *  华为od，十进制和二进制之间的相互转换
+ *
  *  0 1 2 3 4 5 6 7
  *  ! (exp) (mant)
  *  mant 是低四位

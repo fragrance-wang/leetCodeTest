@@ -1,4 +1,4 @@
-package com.atws.simple;
+package com.atws.array;
 
 /**
  * https://leetcode.cn/problems/two-sum/
@@ -6,9 +6,9 @@ package com.atws.simple;
  * @author wangshan
  * @date 2023-07-06 下午4:44
  */
-public class Test3 {
+public class Test1 {
     public static void main(String[] args) {
-        Test3 test3 = new Test3();
+        Test1 test3 = new Test1();
         int[] nums = new int[4];
         nums[0] = 2;
         nums[1] = 7;

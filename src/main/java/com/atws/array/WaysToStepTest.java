@@ -1,8 +1,9 @@
-package com.atws.simple;
+package com.atws.array;
 
 /**
  *
  * https://leetcode.cn/problems/three-steps-problem-lcci/description/
+ * 爬楼梯
  * @author wangshan
  * @date 2023-07-25 下午3:41
  */

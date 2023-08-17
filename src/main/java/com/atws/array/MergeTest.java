@@ -1,4 +1,4 @@
-package com.atws.simple;
+package com.atws.array;
 
 /**
  * https://leetcode.cn/problems/merge-sorted-array/

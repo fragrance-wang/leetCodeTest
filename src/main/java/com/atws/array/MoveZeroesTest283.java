@@ -1,7 +1,8 @@
-package com.atws.simple;
+package com.atws.array;
 
 
 /**
+ * 移动零
  * @author wangshan
  * @date 2023-07-12 上午9:57
  */

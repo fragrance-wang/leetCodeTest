@@ -1,4 +1,4 @@
-package com.atws.simple;
+package com.atws.array;
 
 import java.util.ArrayList;
 import java.util.List;
