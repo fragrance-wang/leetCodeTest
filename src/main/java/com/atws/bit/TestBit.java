@@ -20,14 +20,15 @@ public class TestBit {
     /**
      * 十进制转二进制
      */
-    public static void toBinay() {
+    public static void toBinary() {
         /**
          * 第二种：利用“移位”操作实现
          *
          * 我们可以直接利用移位操作对一个十进制数进行移位操作，
          * 即：将最高位的数移至最低位（移31位），除过最低位其余位置清零，使用& 操作，可以使用和1相与（&），
          * 由于1在内存中除过最低位是1，其余31位都是零，然后把这个数按十进制输出；
-         * 再移次高位，做相同的操作，直到最后一位 ，代码如下。可以说，这是我到目前为止见到的最简单的实现方式了。
+         * 再移次高位，做相同的操作，直到最后一位 ，
+         * 代码如下。可以说，这是我到目前为止见到的最简单的实现方式了。
          */
         int n = 17;
         for(int i = 31;i >= 0; i--)
@@ -46,14 +47,14 @@ public class TestBit {
         String[] split = binaryStr.split("");
         int res = 0;
         for (int i=split.length-1;i>=0;i--){
-            res+= Integer.parseInt(split[i]) * Math.pow(2,i);
+            res+= (int) (Integer.parseInt(split[i]) * Math.pow(2,i));
         }
         System.out.println(res);
     }
 
     public static void main(String[] args) {
         toTen();
-        toBinay();
+        toBinary();
         Scanner in = new Scanner(System.in);
         int count = in.nextInt();
         long min =-1;

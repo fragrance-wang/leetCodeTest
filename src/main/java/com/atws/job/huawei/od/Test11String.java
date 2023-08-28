@@ -1,7 +1,6 @@
-package com.atws.huawei.od;
+package com.atws.job.od;
 
 import java.util.*;
-import java.util.stream.Collectors;
 
 /**
  * 一贫如洗的樵夫阿里巴巴在去砍柴的路上，无意中发现了强盗集团的藏宝地，藏宝地有编号

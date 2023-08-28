@@ -1,4 +1,4 @@
-package com.atws.huawei.od;
+package com.atws.job.od;
 
 import java.util.Scanner;
 

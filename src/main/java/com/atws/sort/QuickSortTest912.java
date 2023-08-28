@@ -22,6 +22,9 @@ public class QuickSortTest912 {
         return nums;
     }
 
+    /**
+     * 升序
+     */
     public static void quickSort(int[] arr, int left, int right) {
         if (left >= right) {//终止条件，分支数组中只有一个元素
             return;
@@ -48,7 +51,7 @@ public class QuickSortTest912 {
                 j--;
             }
         }
-        //最终，i==j
+        //最终，i>=j
         arr[i] = x;
         quickSort(arr, left, i - 1);
         quickSort(arr, i + 1, right);

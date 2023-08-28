@@ -1,4 +1,4 @@
-package com.atws.huawei.od.print;
+package com.atws.job.od.print;
 
 import java.util.Scanner;
 
